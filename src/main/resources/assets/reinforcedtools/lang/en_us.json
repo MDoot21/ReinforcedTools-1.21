@@ -1,0 +1,40 @@
+{
+  "steel_ingot": "Steel Ingot",
+  "steel_rod": "Steel Rod",
+
+  "steel_sword": "Steel Sword",
+  "steel_pickaxe": "Steel Pickaxe",
+  "steel_axe": "Steel Axe",
+  "steel_shovel": "Steel Shovel",
+  "steel_hoe": "Steel Hoe",
+
+  "reinforced_steel_sword": "Reinforced Steel Sword",
+  "reinforced_steel_sword": "Reinforced Steel Pickaxe",
+  "reinforced_steel_sword": "Reinforced Steel Axe",
+  "reinforced_steel_sword": "Reinforced Steel Shovel",
+  "reinforced_steel_sword": "Reinforced Steel Hoe",
+
+  "reinforced_iron_sword": "Reinforced Iron Sword",
+  "reinforced_iron_pickaxe": "Reinforced Iron Pickaxe",
+  "reinforced_iron_axe": "Reinforced Iron Axe",
+  "reinforced_iron_shovel": "Reinforced Iron Shovel",
+  "reinforced_iron_hoe": "Reinforced Iron Hoe",
+
+  "reinforced_gold_sword": "Reinforced Gold Sword",
+  "reinforced_gold_pickaxe": "Reinforced Gold Pickaxe",
+  "reinforced_gold_axe": "Reinforced Gold Axe",
+  "reinforced_gold_shovel": "Reinforced Gold Shovel",
+  "reinforced_gold_hoe": "Reinforced Gold Hoe",
+
+  "reinforced_diamond_sword": "Reinforced Diamond Sword",
+  "reinforced_diamond_pickaxe": "Reinforced Diamond Pickaxe",
+  "reinforced_diamond_axe": "Reinforced Diamond Axe",
+  "reinforced_diamond_shovel": "Reinforced Diamond Shovel",
+  "reinforced_diamond_hoe": "Reinforced Diamond Hoe",
+
+  "reinforced_netherite_sword": "Reinforced Netherite Sword",
+  "reinforced_netherite_pickaxe": "Reinforced Netherite Pickaxe",
+  "reinforced_netherite_axe": "Reinforced Netherite Axe",
+  "reinforced_netherite_shovel": "Reinforced Netherite Shovel",
+  "reinforced_netherite_hoe": "Reinforced Netherite Hoe"
+}
