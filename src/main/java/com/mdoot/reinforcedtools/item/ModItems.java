@@ -46,15 +46,15 @@ public class ModItems {
     public static final Item REINFORCED_IRON_HOE = registerItem("reinforced_iron_hoe",
             new HoeItem(ModToolMaterials.REINFORCED_IRON, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_IRON, -4.0F, 0.0F))));
 
-    public static final Item REINFORCED_GOLD_SWORD = registerItem("reinforced_gold_sword",
+    public static final Item REINFORCED_GOLDEN_SWORD = registerItem("reinforced_golden_sword",
             new SwordItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, 3, -2.4f))));
-    public static final Item REINFORCED_GOLD_PICKAXE = registerItem("reinforced_gold_pickaxe",
+    public static final Item REINFORCED_GOLDEN_PICKAXE = registerItem("reinforced_golden_pickaxe",
             new PickaxeItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, 1.0F, -2.8F))));
-    public static final Item REINFORCED_GOLD_AXE = registerItem("reinforced_gold_axe",
+    public static final Item REINFORCED_GOLDEN_AXE = registerItem("reinforced_golden_axe",
             new AxeItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, 5.0F, -3.0F))));
-    public static final Item REINFORCED_GOLD_SHOVEL = registerItem("reinforced_gold_shovel",
+    public static final Item REINFORCED_GOLDEN_SHOVEL = registerItem("reinforced_golden_shovel",
             new ShovelItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, 1.5F, -3.0F))));
-    public static final Item REINFORCED_GOLD_HOE = registerItem("reinforced_gold_hoe",
+    public static final Item REINFORCED_GOLDEN_HOE = registerItem("reinforced_golden_hoe",
             new HoeItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, -4.0F, 0.0F))));
 
     public static final Item REINFORCED_DIAMOND_SWORD = registerItem("reinforced_diamond_sword",

@@ -19,7 +19,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.REINFORCED_NETHERITE_SWORD)
                 .add(ModItems.REINFORCED_DIAMOND_SWORD)
-                .add(ModItems.REINFORCED_GOLD_SWORD)
+                .add(ModItems.REINFORCED_GOLDEN_SWORD)
                 .add(ModItems.REINFORCED_IRON_SWORD)
                 .add(ModItems.REINFORCED_STEEL_SWORD)
                 .add(ModItems.STEEL_SWORD);
@@ -27,7 +27,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.REINFORCED_NETHERITE_PICKAXE)
                 .add(ModItems.REINFORCED_DIAMOND_PICKAXE)
-                .add(ModItems.REINFORCED_GOLD_PICKAXE)
+                .add(ModItems.REINFORCED_GOLDEN_PICKAXE)
                 .add(ModItems.REINFORCED_IRON_PICKAXE)
                 .add(ModItems.REINFORCED_STEEL_PICKAXE)
                 .add(ModItems.STEEL_PICKAXE);
@@ -35,7 +35,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.REINFORCED_NETHERITE_AXE)
                 .add(ModItems.REINFORCED_DIAMOND_AXE)
-                .add(ModItems.REINFORCED_GOLD_AXE)
+                .add(ModItems.REINFORCED_GOLDEN_AXE)
                 .add(ModItems.REINFORCED_IRON_AXE)
                 .add(ModItems.REINFORCED_STEEL_AXE)
                 .add(ModItems.STEEL_AXE);
@@ -44,7 +44,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.REINFORCED_NETHERITE_SHOVEL)
                 .add(ModItems.REINFORCED_DIAMOND_SHOVEL)
-                .add(ModItems.REINFORCED_GOLD_SHOVEL)
+                .add(ModItems.REINFORCED_GOLDEN_SHOVEL)
                 .add(ModItems.REINFORCED_IRON_SHOVEL)
                 .add(ModItems.REINFORCED_STEEL_SHOVEL)
                 .add(ModItems.STEEL_SHOVEL);
@@ -52,7 +52,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider{
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.REINFORCED_NETHERITE_HOE)
                 .add(ModItems.REINFORCED_DIAMOND_HOE)
-                .add(ModItems.REINFORCED_GOLD_HOE)
+                .add(ModItems.REINFORCED_GOLDEN_HOE)
                 .add(ModItems.REINFORCED_IRON_HOE)
                 .add(ModItems.REINFORCED_STEEL_HOE)
                 .add(ModItems.STEEL_HOE);

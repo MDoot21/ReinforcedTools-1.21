@@ -35,11 +35,11 @@ public class ModItemGroups {
                         entries.add(ModItems.REINFORCED_STEEL_SHOVEL);
                         entries.add(ModItems.REINFORCED_STEEL_HOE);
 
-                        entries.add(ModItems.REINFORCED_GOLD_SWORD);
-                        entries.add(ModItems.REINFORCED_GOLD_PICKAXE);
-                        entries.add(ModItems.REINFORCED_GOLD_AXE);
-                        entries.add(ModItems.REINFORCED_GOLD_SHOVEL);
-                        entries.add(ModItems.REINFORCED_GOLD_HOE);
+                        entries.add(ModItems.REINFORCED_GOLDEN_SWORD);
+                        entries.add(ModItems.REINFORCED_GOLDEN_PICKAXE);
+                        entries.add(ModItems.REINFORCED_GOLDEN_AXE);
+                        entries.add(ModItems.REINFORCED_GOLDEN_SHOVEL);
+                        entries.add(ModItems.REINFORCED_GOLDEN_HOE);
 
                         entries.add(ModItems.REINFORCED_IRON_SWORD);
                         entries.add(ModItems.REINFORCED_IRON_PICKAXE);
