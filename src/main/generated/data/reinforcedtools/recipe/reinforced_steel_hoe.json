@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "reinforcedtools:steel_rod"
+    },
+    "T": {
+      "item": "reinforcedtools:steel_ingot"
+    }
+  },
+  "pattern": [
+    "TT",
+    "R ",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:reinforced_steel_hoe"
+  }
+}

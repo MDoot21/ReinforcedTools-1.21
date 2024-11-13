@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "reinforcedtools:steel_rod"
+    },
+    "T": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "TTT",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:reinforced_iron_pickaxe"
+  }
+}

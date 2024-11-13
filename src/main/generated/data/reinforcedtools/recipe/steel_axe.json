@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "reinforcedtools:steel_ingot"
+    }
+  },
+  "pattern": [
+    "TT",
+    "RT",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:steel_axe"
+  }
+}
