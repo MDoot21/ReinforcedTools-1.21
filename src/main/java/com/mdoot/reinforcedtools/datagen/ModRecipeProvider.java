@@ -37,7 +37,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
 //STEEL SET:
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_SWORD)
                 .pattern("T")
                 .pattern("T")
                 .pattern("R")
@@ -46,7 +46,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_PICKAXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_PICKAXE)
                 .pattern("TTT")
                 .pattern(" R ")
                 .pattern(" R ")
@@ -55,7 +55,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_AXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_AXE)
                 .pattern("TT")
                 .pattern("RT")
                 .pattern("R ")
@@ -64,7 +64,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_SHOVEL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_SHOVEL)
                 .pattern("T")
                 .pattern("R")
                 .pattern("R")
@@ -73,7 +73,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_HOE)
                 .pattern("TT")
                 .pattern("R ")
                 .pattern("R ")
@@ -83,7 +83,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
 //REINFORCED_STEEL_SET:
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STEEL_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_SWORD)
                 .pattern("T")
                 .pattern("T")
                 .pattern("R")
@@ -92,7 +92,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STEEL_PICKAXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_PICKAXE)
                 .pattern("TTT")
                 .pattern(" R ")
                 .pattern(" R ")
@@ -101,7 +101,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STEEL_AXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_AXE)
                 .pattern("TT")
                 .pattern("RT")
                 .pattern("R ")
@@ -110,7 +110,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STEEL_SHOVEL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_SHOVEL)
                 .pattern("T")
                 .pattern("R")
                 .pattern("R")
@@ -119,7 +119,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_STEEL_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_HOE)
                 .pattern("TT")
                 .pattern("R ")
                 .pattern("R ")
@@ -129,7 +129,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
 //REINFORCED_DIAMOND_SET:
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_DIAMOND_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_SWORD)
                 .pattern("T")
                 .pattern("T")
                 .pattern("R")
@@ -138,7 +138,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_DIAMOND_PICKAXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_PICKAXE)
                 .pattern("TTT")
                 .pattern(" R ")
                 .pattern(" R ")
@@ -147,7 +147,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_DIAMOND_AXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_AXE)
                 .pattern("TT")
                 .pattern("RT")
                 .pattern("R ")
@@ -156,7 +156,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_DIAMOND_SHOVEL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_SHOVEL)
                 .pattern("T")
                 .pattern("R")
                 .pattern("R")
@@ -165,7 +165,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_DIAMOND_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_HOE)
                 .pattern("TT")
                 .pattern("R ")
                 .pattern("R ")
@@ -175,7 +175,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
 //REINFORCED_GOLDEN_SET:
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_GOLDEN_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_SWORD)
                 .pattern("T")
                 .pattern("T")
                 .pattern("R")
@@ -184,7 +184,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_GOLDEN_PICKAXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_PICKAXE)
                 .pattern("TTT")
                 .pattern(" R ")
                 .pattern(" R ")
@@ -193,7 +193,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_GOLDEN_AXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_AXE)
                 .pattern("TT")
                 .pattern("RT")
                 .pattern("R ")
@@ -202,7 +202,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_GOLDEN_SHOVEL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_SHOVEL)
                 .pattern("T")
                 .pattern("R")
                 .pattern("R")
@@ -211,7 +211,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_GOLDEN_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_HOE)
                 .pattern("TT")
                 .pattern("R ")
                 .pattern("R ")
@@ -221,7 +221,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
 //REINFORCED_IRON_SET:
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_IRON_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_SWORD)
                 .pattern("T")
                 .pattern("T")
                 .pattern("R")
@@ -230,7 +230,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_IRON_PICKAXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_PICKAXE)
                 .pattern("TTT")
                 .pattern(" R ")
                 .pattern(" R ")
@@ -239,7 +239,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_IRON_AXE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_AXE)
                 .pattern("TT")
                 .pattern("RT")
                 .pattern("R ")
@@ -248,7 +248,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_IRON_SHOVEL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_SHOVEL)
                 .pattern("T")
                 .pattern("R")
                 .pattern("R")
@@ -257,7 +257,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(recipeExporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.REINFORCED_IRON_HOE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_HOE)
                 .pattern("TT")
                 .pattern("R ")
                 .pattern("R ")
