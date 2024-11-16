@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RTR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:obsidian_shard"
+  }
+}

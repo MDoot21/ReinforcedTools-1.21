@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "reinforcedtools:thick_stick"
+    },
+    "T": {
+      "item": "reinforcedtools:obsidian_shard"
+    }
+  },
+  "pattern": [
+    "TT",
+    "RT",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:obsidian_axe"
+  }
+}

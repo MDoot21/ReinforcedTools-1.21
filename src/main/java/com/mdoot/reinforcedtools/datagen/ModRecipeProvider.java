@@ -5,11 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.RecipeSerializer;
-import net.minecraft.recipe.SmithingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -35,6 +31,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("R")
                 .input('R', ModItems.STEEL_INGOT)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSIDIAN_SHARD)
+                .pattern("RRR")
+                .pattern("RTR")
+                .pattern("RRR")
+                .input('R', Items.OBSIDIAN)
+                .input('T', Items.DIAMOND)
+                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THICK_STICK)
+                .pattern("R")
+                .pattern("R")
+                .input('R', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(recipeExporter);
 //STEEL SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_SWORD)
@@ -82,7 +93,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-//REINFORCED_STEEL_SET:
+//REINFORCED STEEL SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_STEEL_SWORD)
                 .pattern("T")
                 .pattern("T")
@@ -128,7 +139,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
-//REINFORCED_DIAMOND_SET:
+//REINFORCED DIAMOND SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_DIAMOND_SWORD)
                 .pattern("T")
                 .pattern("T")
@@ -174,7 +185,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
-//REINFORCED_GOLDEN_SET:
+//REINFORCED GOLDEN SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_GOLDEN_SWORD)
                 .pattern("T")
                 .pattern("T")
@@ -220,7 +231,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
-//REINFORCED_IRON_SET:
+//REINFORCED IRON SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.REINFORCED_IRON_SWORD)
                 .pattern("T")
                 .pattern("T")
@@ -265,6 +276,52 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('T', Items.IRON_INGOT)
                 .criterion(hasItem(ModItems.STEEL_ROD), conditionsFromItem(ModItems.STEEL_ROD))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(recipeExporter);
+//OBSIDIAN SET
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_SWORD)
+                .pattern("T")
+                .pattern("T")
+                .pattern("R")
+                .input('R', ModItems.THICK_STICK)
+                .input('T', ModItems.OBSIDIAN_SHARD)
+                .criterion(hasItem(ModItems.THICK_STICK), conditionsFromItem(ModItems.THICK_STICK))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_PICKAXE)
+                .pattern("TTT")
+                .pattern(" R ")
+                .pattern(" R ")
+                .input('R', ModItems.THICK_STICK)
+                .input('T', ModItems.OBSIDIAN_SHARD)
+                .criterion(hasItem(ModItems.THICK_STICK), conditionsFromItem(ModItems.THICK_STICK))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_AXE)
+                .pattern("TT")
+                .pattern("RT")
+                .pattern("R ")
+                .input('R', ModItems.THICK_STICK)
+                .input('T', ModItems.OBSIDIAN_SHARD)
+                .criterion(hasItem(ModItems.THICK_STICK), conditionsFromItem(ModItems.THICK_STICK))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_SHOVEL)
+                .pattern("T")
+                .pattern("R")
+                .pattern("R")
+                .input('R', ModItems.THICK_STICK)
+                .input('T', ModItems.OBSIDIAN_SHARD)
+                .criterion(hasItem(ModItems.THICK_STICK), conditionsFromItem(ModItems.THICK_STICK))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_HOE)
+                .pattern("TT")
+                .pattern("R ")
+                .pattern("R ")
+                .input('R', ModItems.THICK_STICK)
+                .input('T', ModItems.OBSIDIAN_SHARD)
+                .criterion(hasItem(ModItems.THICK_STICK), conditionsFromItem(ModItems.THICK_STICK))
+                .criterion(hasItem(ModItems.OBSIDIAN_SHARD), conditionsFromItem(ModItems.OBSIDIAN_SHARD))
                 .offerTo(recipeExporter);
     }
 }

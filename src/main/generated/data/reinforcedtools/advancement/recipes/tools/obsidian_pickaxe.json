@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reinforcedtools:obsidian_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "reinforcedtools:obsidian_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thick_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reinforcedtools:thick_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thick_stick",
+      "has_obsidian_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "reinforcedtools:obsidian_pickaxe"
+    ]
+  }
+}

@@ -21,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.STEEL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.STEEL_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THICK_STICK, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.REINFORCED_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.REINFORCED_NETHERITE_PICKAXE, Models.HANDHELD);
@@ -57,6 +59,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STEEL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STEEL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STEEL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.HANDHELD);
 
     }
 }

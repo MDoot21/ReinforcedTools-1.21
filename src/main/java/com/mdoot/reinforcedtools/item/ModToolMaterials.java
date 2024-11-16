@@ -23,8 +23,9 @@ public enum ModToolMaterials implements ToolMaterial {
     REINFORCED_STEEL(ModTags.Blocks.INCORRECT_FOR_REINFORCED_STEEL_TOOL,
             468, 6.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
     STEEL(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL,
-            312, 6.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
-
+            312, 6.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
+    OBSIDIAN(ModTags.Blocks.INCORRECT_FOR_OBSIDIAN_TOOL,
+            1281, 7.0F, 5.0F, 20, () -> Ingredient.ofItems(ModItems.OBSIDIAN_SHARD));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

@@ -1,9 +1,12 @@
 {
   "itemgroup.reinforcedtools.reinforced_tools": "Reinforced Tools",
-  "itemgroup.reinforcedtools.steel": "Steel",
+  "itemgroup.reinforcedtools.materials": "Materials",
+  "itemgroup.reinforcedtools.tools": "Tools",
 
   "item.reinforcedtools.steel_ingot": "Steel Ingot",
   "item.reinforcedtools.steel_rod": "Steel Rod",
+  "item.reinforcedtools.obsidian_shard": "Obsidian Shard",
+  "item.reinforcedtools.thick_stick": "Thick Stick",
 
   "item.reinforcedtools.steel_sword": "Steel Sword",
   "item.reinforcedtools.steel_pickaxe": "Steel Pickaxe",
@@ -39,5 +42,11 @@
   "item.reinforcedtools.reinforced_netherite_pickaxe": "Reinforced Netherite Pickaxe",
   "item.reinforcedtools.reinforced_netherite_axe": "Reinforced Netherite Axe",
   "item.reinforcedtools.reinforced_netherite_shovel": "Reinforced Netherite Shovel",
-  "item.reinforcedtools.reinforced_netherite_hoe": "Reinforced Netherite Hoe"
+  "item.reinforcedtools.reinforced_netherite_hoe": "Reinforced Netherite Hoe",
+
+  "item.reinforcedtools.obsidian_sword": "Obsidian Sword",
+  "item.reinforcedtools.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.reinforcedtools.obsidian_axe": "Obsidian Axe",
+  "item.reinforcedtools.obsidian_shovel": "Obsidian Shovel",
+  "item.reinforcedtools.obsidian_hoe": "Obsidian Hoe"
 }
