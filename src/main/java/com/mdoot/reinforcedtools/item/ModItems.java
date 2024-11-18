@@ -77,7 +77,7 @@ public class ModItems {
     public static final Item REINFORCED_GOLDEN_SHOVEL = registerItem("reinforced_golden_shovel",
             new ShovelItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, 1.5F, -3.0F))));
     public static final Item REINFORCED_GOLDEN_HOE = registerItem("reinforced_golden_hoe",
-            new HoeItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, -4.0F, 0.0F))));
+            new HoeItem(ModToolMaterials.REINFORCED_GOLD, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_GOLD, -1.0F, 0.0F))));
 
     public static final Item REINFORCED_DIAMOND_SWORD = registerItem("reinforced_diamond_sword",
             new SwordItem(ModToolMaterials.REINFORCED_DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.REINFORCED_DIAMOND, 3, -2.4f))));
