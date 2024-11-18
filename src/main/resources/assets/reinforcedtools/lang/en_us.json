@@ -48,5 +48,21 @@
   "item.reinforcedtools.obsidian_pickaxe": "Obsidian Pickaxe",
   "item.reinforcedtools.obsidian_axe": "Obsidian Axe",
   "item.reinforcedtools.obsidian_shovel": "Obsidian Shovel",
-  "item.reinforcedtools.obsidian_hoe": "Obsidian Hoe"
+  "item.reinforcedtools.obsidian_hoe": "Obsidian Hoe",
+
+  "item.reinforcedtools.reinforced_obsidian_sword": "Reinforced Obsidian Sword",
+  "item.reinforcedtools.reinforced_obsidian_pickaxe": "Reinforced Obsidian Pickaxe",
+  "item.reinforcedtools.reinforced_obsidian_axe": "Reinforced Obsidian Axe",
+  "item.reinforcedtools.reinforced_obsidian_shovel": "Reinforced Obsidian Shovel",
+  "item.reinforcedtools.reinforced_obsidian_hoe": "Reinforced Obsidian Hoe",
+
+  "item.reinforcedtools.steel_upgrade_smithing_template": "Smithing Template",
+  "upgrade.reinforcedtools.steel_upgrade": "Steel Upgrade",
+  "item.reinforcedtools.smithing_template.applies_to": "Applies to:",
+  "item.reinforcedtools.smithing_template.steel_upgrade.applies_to": "Tools",
+  "item.reinforcedtools.smithing_template.steel_upgrade.ingredients": "Steel Ingot",
+  "item.reinforcedtools.smithing_template.steel_upgrade.base_slot_description": "Add any non-reinforced tool",
+  "item.reinforcedtools.smithing_template.steel_upgrade.additions_slot_description": "Add Steel Ingot"
+
+
 }

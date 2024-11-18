@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STEEL_ROD, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIAN_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.THICK_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.REINFORCED_NETHERITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.REINFORCED_NETHERITE_PICKAXE, Models.HANDHELD);
@@ -65,6 +66,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.REINFORCED_OBSIDIAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_OBSIDIAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_OBSIDIAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_OBSIDIAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.REINFORCED_OBSIDIAN_HOE, Models.HANDHELD);
 
     }
 }

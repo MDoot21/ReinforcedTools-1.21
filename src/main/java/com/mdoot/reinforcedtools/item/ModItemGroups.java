@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_ROD);
                         entries.add(ModItems.OBSIDIAN_SHARD);
                         entries.add(ModItems.THICK_STICK);
+                        entries.add(ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE);
                     })).build());
 
     public static final ItemGroup TOOLS = Registry.register(Registries.ITEM_GROUP,
@@ -72,6 +73,12 @@ public class ModItemGroups {
                         entries.add(ModItems.REINFORCED_NETHERITE_AXE);
                         entries.add(ModItems.REINFORCED_NETHERITE_SHOVEL);
                         entries.add(ModItems.REINFORCED_NETHERITE_HOE);
+
+                        entries.add(ModItems.REINFORCED_OBSIDIAN_SWORD);
+                        entries.add(ModItems.REINFORCED_OBSIDIAN_PICKAXE);
+                        entries.add(ModItems.REINFORCED_OBSIDIAN_AXE);
+                        entries.add(ModItems.REINFORCED_OBSIDIAN_SHOVEL);
+                        entries.add(ModItems.REINFORCED_OBSIDIAN_HOE);
                     }).build());
 
 

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "reinforcedtools:steel_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:reinforced_iron_hoe"
+  },
+  "template": {
+    "item": "reinforcedtools:steel_upgrade_smithing_template"
+  }
+}

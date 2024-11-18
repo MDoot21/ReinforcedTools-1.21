@@ -6,7 +6,6 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
@@ -25,7 +24,9 @@ public enum ModToolMaterials implements ToolMaterial {
     STEEL(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL,
             312, 6.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
     OBSIDIAN(ModTags.Blocks.INCORRECT_FOR_OBSIDIAN_TOOL,
-            1281, 7.0F, 5.0F, 20, () -> Ingredient.ofItems(ModItems.OBSIDIAN_SHARD));
+            1281, 7.0F, 5.0F, 20, () -> Ingredient.ofItems(ModItems.OBSIDIAN_SHARD)),
+    REINFORCED_OBSIDIAN(ModTags.Blocks.INCORRECT_FOR_OBSIDIAN_TOOL,
+            2562, 8.25F, 6.0F, 22, () -> Ingredient.ofItems(ModItems.OBSIDIAN_SHARD));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

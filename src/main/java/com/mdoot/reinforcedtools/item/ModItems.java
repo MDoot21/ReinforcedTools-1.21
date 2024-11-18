@@ -1,8 +1,6 @@
 package com.mdoot.reinforcedtools.item;
 
 import com.mdoot.reinforcedtools.ReinforcedTools;
-import net.fabricmc.fabric.api.item.v1.FabricItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -13,6 +11,7 @@ public class ModItems {
     public static final Item STEEL_ROD = registerItem("steel_rod", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_SHARD = registerItem("obsidian_shard", new Item(new Item.Settings()));
     public static final Item THICK_STICK = registerItem("thick_stick", new Item(new Item.Settings()));
+    public static final Item STEEL_UPGRADE_SMITHING_TEMPLATE = registerItem("steel_upgrade_smithing_template", ModSmithingTemplateItem.createSteelUpgrade());
 
     public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword",
             new SwordItem(ModToolMaterials.OBSIDIAN, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 3, -2.4f))));
@@ -24,6 +23,17 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.OBSIDIAN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 1.5F, -3.0F))));
     public static final Item OBSIDIAN_HOE = registerItem("obsidian_hoe",
             new HoeItem(ModToolMaterials.OBSIDIAN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, -4.0F, 0.0F))));
+
+    public static final Item REINFORCED_OBSIDIAN_SWORD = registerItem("reinforced_obsidian_sword",
+            new SwordItem(ModToolMaterials.REINFORCED_OBSIDIAN, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.REINFORCED_OBSIDIAN, 3, -2.4f))));
+    public static final Item REINFORCED_OBSIDIAN_PICKAXE = registerItem("reinforced_obsidian_pickaxe",
+            new PickaxeItem(ModToolMaterials.REINFORCED_NETHERITE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_OBSIDIAN, 1.0F, -2.8F))));
+    public static final Item REINFORCED_OBSIDIAN_AXE = registerItem("reinforced_obsidian_axe",
+            new AxeItem(ModToolMaterials.REINFORCED_OBSIDIAN, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_OBSIDIAN, 5.0F, -3.0F))));
+    public static final Item REINFORCED_OBSIDIAN_SHOVEL = registerItem("reinforced_obsidian_shovel",
+            new ShovelItem(ModToolMaterials.REINFORCED_OBSIDIAN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.REINFORCED_OBSIDIAN, 1.5F, -3.0F))));
+    public static final Item REINFORCED_OBSIDIAN_HOE = registerItem("reinforced_obsidian_hoe",
+            new HoeItem(ModToolMaterials.REINFORCED_OBSIDIAN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_OBSIDIAN, -4.0F, 0.0F))));
 
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterials.STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.STEEL, 3, -2.4f))));
@@ -90,7 +100,6 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.REINFORCED_NETHERITE, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.REINFORCED_NETHERITE, 1.5F, -3.0F))));
     public static final Item REINFORCED_NETHERITE_HOE = registerItem("reinforced_netherite_hoe",
             new HoeItem(ModToolMaterials.REINFORCED_NETHERITE, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.REINFORCED_NETHERITE, -4.0F, 0.0F))));
-
 
 
     private static Item registerItem(String name, Item item) {

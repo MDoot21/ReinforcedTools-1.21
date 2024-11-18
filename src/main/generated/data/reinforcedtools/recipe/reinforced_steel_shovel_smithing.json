@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "reinforcedtools:steel_ingot"
+  },
+  "base": {
+    "item": "reinforcedtools:steel_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:reinforced_steel_shovel"
+  },
+  "template": {
+    "item": "reinforcedtools:steel_upgrade_smithing_template"
+  }
+}
