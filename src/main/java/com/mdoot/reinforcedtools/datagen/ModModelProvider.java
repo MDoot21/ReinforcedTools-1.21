@@ -1,5 +1,6 @@
 package com.mdoot.reinforcedtools.datagen;
 
+import com.mdoot.reinforcedtools.block.ModBlocks;
 import com.mdoot.reinforcedtools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -14,7 +15,14 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        BlockStateModelGenerator.BlockTexturePool steelPool= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STEEL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool cutSteelPool= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUT_STEEL_BLOCK);
 
+        cutSteelPool.stairs(ModBlocks.CUT_STEEL_STAIRS);
+        cutSteelPool.slab(ModBlocks.CUT_STEEL_SLAB);
+
+        steelPool.button(ModBlocks.STEEL_BUTTON);
+        steelPool.pressurePlate(ModBlocks.STEEL_PRESSURE_PLATE);
     }
 
     @Override

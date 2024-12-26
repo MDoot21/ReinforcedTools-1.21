@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "reinforcedtools:block/steel_block"
+  }
+}

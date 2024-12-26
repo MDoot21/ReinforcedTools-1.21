@@ -1,7 +1,15 @@
 {
   "itemgroup.reinforcedtools.reinforced_tools": "Reinforced Tools",
   "itemgroup.reinforcedtools.materials": "Materials",
-  "itemgroup.reinforcedtools.tools": "Tools",
+  "itemgroup.reinforcedtools.blocks": "Blocks",
+
+  "block.reinforcedtools.steel_block": "Steel Block",
+  "block.reinforcedtools.cut_steel_block": "Cut Steel",
+  "block.reinforcedtools.cut_steel_stairs": "Cut Steel Stairs",
+  "block.reinforcedtools.cut_steel_slab": "Cut Steel Slab",
+  "block.reinforcedtools.steel_button": "Steel Button",
+  "block.reinforcedtools.steel_pressure_plate": "Steel Pressure Plate",
+  "block.reinforcedtools.steel_bars": "Steel Bars",
 
   "item.reinforcedtools.steel_ingot": "Steel Ingot",
   "item.reinforcedtools.steel_rod": "Steel Rod",
@@ -63,6 +71,4 @@
   "item.reinforcedtools.smithing_template.steel_upgrade.ingredients": "Steel Ingot",
   "item.reinforcedtools.smithing_template.steel_upgrade.base_slot_description": "Add any non-reinforced tool",
   "item.reinforcedtools.smithing_template.steel_upgrade.additions_slot_description": "Add Steel Ingot"
-
-
 }

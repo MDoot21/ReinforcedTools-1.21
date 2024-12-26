@@ -1,5 +1,6 @@
 package com.mdoot.reinforcedtools;
 
+import com.mdoot.reinforcedtools.block.ModBlocks;
 import com.mdoot.reinforcedtools.item.ModItemGroups;
 import com.mdoot.reinforcedtools.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class ReinforcedTools implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

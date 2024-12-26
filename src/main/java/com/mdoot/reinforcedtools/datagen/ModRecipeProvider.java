@@ -1,12 +1,10 @@
 package com.mdoot.reinforcedtools.datagen;
 
+import com.mdoot.reinforcedtools.block.ModBlocks;
 import com.mdoot.reinforcedtools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
@@ -21,6 +19,47 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STEEL_BLOCK, 4)
+                .pattern("RR")
+                .pattern("RR")
+                .input('R', ModBlocks.STEEL_BLOCK)
+                .criterion(hasItem(ModBlocks.STEEL_BLOCK), conditionsFromItem(ModBlocks.STEEL_BLOCK))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STEEL_STAIRS, 4)
+                .pattern("R  ")
+                .pattern("RR ")
+                .pattern("RRR")
+                .input('R', ModBlocks.CUT_STEEL_BLOCK)
+                .criterion(hasItem(ModBlocks.CUT_STEEL_BLOCK), conditionsFromItem(ModBlocks.CUT_STEEL_BLOCK))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_STEEL_SLAB, 6)
+                .pattern("RRR")
+                .input('R', ModBlocks.CUT_STEEL_BLOCK)
+                .criterion(hasItem(ModBlocks.CUT_STEEL_BLOCK), conditionsFromItem(ModBlocks.CUT_STEEL_BLOCK))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STEEL_BUTTON)
+                .input(ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STEEL_PRESSURE_PLATE)
+                .pattern("RR")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_BARS, 16)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_INGOT)
                 .pattern("T")
                 .pattern("R")
@@ -58,7 +97,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("RRR")
                 .input('R', Items.DIAMOND)
                 .input('T', ModItems.STEEL_INGOT)
-                .input('S', ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE);
+                .input('S', ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .criterion(hasItem(ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
 
 //STEEL SET:
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_SWORD)

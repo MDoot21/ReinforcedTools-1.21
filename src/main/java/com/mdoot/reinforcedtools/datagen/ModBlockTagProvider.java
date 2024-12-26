@@ -1,5 +1,6 @@
 package com.mdoot.reinforcedtools.datagen;
 
+import com.mdoot.reinforcedtools.block.ModBlocks;
 import com.mdoot.reinforcedtools.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -15,6 +16,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CUT_STEEL_BLOCK)
+                .add(ModBlocks.CUT_STEEL_STAIRS)
+                .add(ModBlocks.CUT_STEEL_SLAB)
+                .add(ModBlocks.STEEL_BARS)
+                .add(ModBlocks.STEEL_BUTTON)
+                .add(ModBlocks.STEEL_PRESSURE_PLATE)
+                .add(ModBlocks.STEEL_BLOCK);
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.CUT_STEEL_BLOCK)
+                .add(ModBlocks.CUT_STEEL_STAIRS)
+                .add(ModBlocks.CUT_STEEL_SLAB)
+                .add(ModBlocks.STEEL_BARS)
+                .add(ModBlocks.STEEL_BUTTON)
+                .add(ModBlocks.STEEL_PRESSURE_PLATE)
+                .add(ModBlocks.STEEL_BLOCK);
+
         getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_REINFORCED_NETHERITE_TOOL)
                 .forceAddTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL);
 

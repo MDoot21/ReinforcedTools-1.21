@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "reinforcedtools:steel_upgrade_smithing_template"
+    },
+    "T": {
+      "item": "reinforcedtools:steel_ingot"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "RTR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:steel_upgrade_smithing_template"
+  }
+}

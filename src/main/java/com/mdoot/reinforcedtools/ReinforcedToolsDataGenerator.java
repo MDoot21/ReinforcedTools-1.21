@@ -1,9 +1,6 @@
 package com.mdoot.reinforcedtools;
 
-import com.mdoot.reinforcedtools.datagen.ModBlockTagProvider;
-import com.mdoot.reinforcedtools.datagen.ModItemTagProvider;
-import com.mdoot.reinforcedtools.datagen.ModModelProvider;
-import com.mdoot.reinforcedtools.datagen.ModRecipeProvider;
+import com.mdoot.reinforcedtools.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -16,5 +13,6 @@ public class ReinforcedToolsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
 	}
 }

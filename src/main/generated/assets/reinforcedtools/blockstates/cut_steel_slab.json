@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reinforcedtools:block/cut_steel_slab"
+    },
+    "type=double": {
+      "model": "reinforcedtools:block/cut_steel_block"
+    },
+    "type=top": {
+      "model": "reinforcedtools:block/cut_steel_slab_top"
+    }
+  }
+}

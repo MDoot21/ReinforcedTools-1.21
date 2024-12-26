@@ -1,8 +1,10 @@
-// 1.21	2024-11-18T19:10:09.0311707	Reinforced Tools/Tags for minecraft:block
+// 1.21	2024-12-26T12:24:09.3255224	Reinforced Tools/Tags for minecraft:block
+e8f1a5f262a0cfb2784f5282e5f1b86793c548b3 data\minecraft\tags\block\needs_iron_tool.json
 f57a1c0d935679dbbcab3f2e8a06cae2238a6735 data\reinforcedtools\tags\block\incorrect_for_obsidian_tool.json
 f57a1c0d935679dbbcab3f2e8a06cae2238a6735 data\reinforcedtools\tags\block\incorrect_for_reinforced_netherite_tool.json
 f57a1c0d935679dbbcab3f2e8a06cae2238a6735 data\reinforcedtools\tags\block\incorrect_for_reinforced_diamond_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\reinforcedtools\tags\block\needs_reinforced_steel_tool.json
+e8f1a5f262a0cfb2784f5282e5f1b86793c548b3 data\minecraft\tags\block\mineable\pickaxe.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\reinforcedtools\tags\block\needs_obsidian_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\reinforcedtools\tags\block\needs_reinforced_diamond_tool.json
 950a086f855d118e00d3fc9697663c7721c42db1 data\reinforcedtools\tags\block\incorrect_for_steel_tool.json

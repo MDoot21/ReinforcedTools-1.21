@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "reinforcedtools:block/cut_steel_block",
+    "side": "reinforcedtools:block/cut_steel_block",
+    "top": "reinforcedtools:block/cut_steel_block"
+  }
+}

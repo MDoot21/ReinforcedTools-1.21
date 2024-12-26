@@ -1,0 +1,8 @@
+// 1.21	2024-12-26T12:24:09.3215132	Reinforced Tools/Block Loot Tables
+e7640eb4a4296cdce1b52fa9352c2e4391c69b62 data\reinforcedtools\loot_table\blocks\steel_pressure_plate.json
+5eb98ca92a2379be667392be9230d8e81c4d66d3 data\reinforcedtools\loot_table\blocks\steel_block.json
+42ab164b424c0f7bc375b316835c1b201d439e03 data\reinforcedtools\loot_table\blocks\cut_steel_stairs.json
+adbf4a6a2d90dfce1e7fc7b4ee4b3b2bf0f3e72b data\reinforcedtools\loot_table\blocks\cut_steel_slab.json
+867b0f9d1553e39779d5a40c3608c49ca7acaa59 data\reinforcedtools\loot_table\blocks\steel_bars.json
+b647906420101f6f8e83b96e46bb7d64103b519c data\reinforcedtools\loot_table\blocks\steel_button.json
+9697c970ccd0dd5084579f61c7ad075dbf8cfaf7 data\reinforcedtools\loot_table\blocks\cut_steel_block.json

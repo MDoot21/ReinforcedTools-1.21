@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "reinforcedtools:steel_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "reinforcedtools:steel_button"
+  }
+}
