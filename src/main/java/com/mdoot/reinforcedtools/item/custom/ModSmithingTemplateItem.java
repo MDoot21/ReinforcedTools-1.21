@@ -1,4 +1,4 @@
-package com.mdoot.reinforcedtools.item;
+package com.mdoot.reinforcedtools.item.custom;
 
 import java.util.List;
 

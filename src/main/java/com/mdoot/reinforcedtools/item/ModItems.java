@@ -1,6 +1,7 @@
 package com.mdoot.reinforcedtools.item;
 
 import com.mdoot.reinforcedtools.ReinforcedTools;
+import com.mdoot.reinforcedtools.item.custom.ModSmithingTemplateItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
